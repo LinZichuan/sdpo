@@ -1,0 +1,9 @@
+algo: ppo2
+exp_label: reg_average
+
+algo_params:
+  model_type: reg
+  reg_type: margin
+  reg_coef: 0.2
+  margin_size: 0.1
+  lr: 0.0003

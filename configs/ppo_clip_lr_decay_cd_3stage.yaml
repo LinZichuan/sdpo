@@ -1,0 +1,10 @@
+algo: ppo2
+exp_label: clip_lr_decay
+
+algo_params:
+  model_type: clip
+  left_cliprange: 0.8
+  right_cliprange: 1.2
+  use_cd: True
+  sd_delta: 1.0
+  use_3stage: True

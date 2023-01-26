@@ -1,0 +1,10 @@
+algo: ppo2
+exp_label: dropout
+
+algo_params:
+  model_type: dropout
+  tv_threshold: 0.25
+  reduce_type: reduce_mean
+  use_cd: True
+  sd_delta: 0.25
+  unbias: True

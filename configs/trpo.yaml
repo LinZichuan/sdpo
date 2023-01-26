@@ -1,0 +1,5 @@
+algo: trpo_mpi
+exp_label: trpo
+
+algo_params:
+  use_cd: False

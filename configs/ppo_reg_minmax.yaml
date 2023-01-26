@@ -1,0 +1,8 @@
+algo: ppo2
+exp_label: reg_minmax
+
+algo_params:
+  model_type: reg
+  reg_type: minmax
+  reg_coef: 0.2
+  lr: 0.0003
